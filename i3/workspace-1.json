@@ -1,0 +1,123 @@
+// vim:ts=4:sw=4:et
+{
+    // splitv split container with 2 children
+    "border": "normal",
+    "floating": "auto_off",
+    "layout": "splitv",
+    "percent": 0.5,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "pixel",
+            "current_border_width": 3,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 434,
+               "width": 722,
+               "x": 0,
+               "y": 0
+            },
+            "name": "Terminal - AWOLNATION - Sail - Sail (album version) (2011)",
+            "percent": 0.5,
+            "swallows": [
+               {
+               "class": "^Xfce4\\-terminal$",
+               "title": "^topleft$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "pixel",
+            "current_border_width": 3,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 434,
+               "width": 722,
+               "x": 0,
+               "y": 0
+            },
+            "name": "Terminal - gtespe@ArchEdu:~",
+            "percent": 0.5,
+            "swallows": [
+               {
+               "class": "^Xfce4\\-terminal$",
+               "title": "^bottomleft$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
+{
+    // splitv split container with 3 children
+    "border": "normal",
+    "floating": "auto_off",
+    "layout": "splitv",
+    "percent": 0.5,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "pixel",
+            "current_border_width": 3,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 434,
+               "width": 722,
+               "x": 0,
+               "y": 0
+            },
+            "name": "Terminal - gtespe@ArchEdu:~",
+            "percent": 0.263333333333333,
+            "swallows": [
+               {
+               "class": "^Xfce4\\-terminal$",
+               "title": "^topright$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "pixel",
+            "current_border_width": 3,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 434,
+               "width": 722,
+               "x": 0,
+               "y": 0
+            },
+            "name": "Terminal - gtespe@ArchEdu:~",
+            "percent": 0.368333333333333,
+            "swallows": [
+               {
+               "class": "^Xfce4\\-terminal$",
+               "title": "^middleright$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "pixel",
+            "current_border_width": 3,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 434,
+               "width": 722,
+               "x": 0,
+               "y": 0
+            },
+            "name": "Terminal - gtespe@ArchEdu:~",
+            "percent": 0.368333333333333,
+            "swallows": [
+               {
+               "class": "^Xfce4\\-terminal$",
+               "title": "^bottomright$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
