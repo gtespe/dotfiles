@@ -1,3 +1,9 @@
+" Lion's personal vimrc. More advanced settings are stored in files in the
+" settings subfolder. Every .vim file in there will be automatically sourced.
+"
+" REQUIREMENTS: Symlink this file to ~/.vimrc and its parent folder to ~/.vim
+" Necessary so everything can be found and no absolute paths are necessary.
+
 
 " Use vim settings instead of vi settings. MUST be the first thing in the
 " vimrc.
@@ -80,12 +86,10 @@ set autoindent
 " ====================================
 " Leader
 " =============================
+
 let mapleader = "\<Space>"
-"save with space+w
 nnoremap <Leader>w :w<CR>
-"open files with space+o
 nnoremap <Leader>o :CtrlP<CR>
-"Disable highlighting with space+h
 nnoremap <Leader>h :noh<CR>
 
 "Move between tabs with ctrl + l/h
@@ -97,7 +101,6 @@ nnoremap <Leader>n :NERDTreeToggle<CR>
 
 "show nerdtree on startup
 autocmd vimenter * NERDTree
-
 "Kill vim if nerdtree is the only window
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
@@ -106,7 +109,6 @@ set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 
-"Syntastic settings
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_auto_jump=0
@@ -122,4 +124,5 @@ let g:syntastic_python_checkers = ['pyflakes']
 "Highlighting stuff, this didnt work last time
 "highlight Search guibg='purple' guifg='NONE'
 
+colorscheme default
 

@@ -21,7 +21,7 @@
             "percent": 0.5,
             "swallows": [
                {
-               "class": "^Xfce4\\-terminal$",
+               "class": "^URxvt$",
                "title": "^topleft$"
                }
             ],
@@ -41,7 +41,7 @@
             "percent": 0.5,
             "swallows": [
                {
-               "class": "^Xfce4\\-terminal$",
+               "class": "^URxvt$",
                "title": "^bottomleft$"
                }
             ],
@@ -72,7 +72,7 @@
             "percent": 0.263333333333333,
             "swallows": [
                {
-               "class": "^Xfce4\\-terminal$",
+               "class": "^URxvt$",
                "title": "^topright$"
                }
             ],
@@ -92,7 +92,7 @@
             "percent": 0.368333333333333,
             "swallows": [
                {
-               "class": "^Xfce4\\-terminal$",
+               "class": "^URxvt$",
                "title": "^middleright$"
                }
             ],
@@ -112,7 +112,7 @@
             "percent": 0.368333333333333,
             "swallows": [
                {
-               "class": "^Xfce4\\-terminal$",
+               "class": "^URxvt$",
                "title": "^bottomright$"
                }
             ],
