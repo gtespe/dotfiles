@@ -7,7 +7,7 @@
 
 for_window [class="^.*"] border pixel 3
 client.focused #4c7899 #bfbfbf #ffffff 
-gaps inner 10
+gaps inner 11
 gaps outer 3
 
 #set key repeat
@@ -27,7 +27,6 @@ exec --no-startup-id guake
 #exec urxvt -e 'tty-clock -scC 1' -name 'topright'
 #exec urxvt -e 'screenfetch' -name 'middleright'
 #exec urxvt -e 'asciiquarium' -name 'bottomright'
-
 
 
 #add xfce4 panel
@@ -81,7 +80,7 @@ bindsym $mod+n exec light -U 7
 bindsym $mod+q kill
 
 # start Rofi (a program launcher)
-bindsym $mod+space exec rofi -show run -font "ubuntu mono 18" -fg "#505050" -bg "#000000" -hlfg "#ffb964" -hlbg "#000000" -width 30 -lines 5 -padding 20 -separator-style none -hide-scrollbar -bw 4 -bc "#111111" -terminal urxvt
+bindsym $mod+space exec rofi -show run -font "MonacoB 17" -width 25 -lines 6 -padding 10 -hide-scrollbar -bw 3 -terminal urxvt
 
 
 # There also is the (new) i3-dmenu-desktop which only displays applications
