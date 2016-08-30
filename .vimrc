@@ -121,8 +121,8 @@ let g:syntastic_c_checkers = ['clang_check']
 let g:syntastic_cpp_checkers = ['verapp', 'gcc']
 let g:syntastic_python_checkers = ['pyflakes']
 
-"Highlighting stuff, this didnt work last time
-"highlight Search guibg='purple' guifg='NONE'
+let g:ycm_show_diagnostics_ui = 0
 
+" i like the default colorscheme...
 colorscheme default
 
