@@ -100,7 +100,7 @@ nnoremap <Leader>n :NERDTreeToggle<CR>
 
 
 "show nerdtree on startup
-autocmd vimenter * NERDTree
+"autocmd vimenter * NERDTree
 "Kill vim if nerdtree is the only window
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
