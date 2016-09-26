@@ -15,6 +15,8 @@ set t_Co=256                    " Enable 256 color in vim.
 set laststatus=2                " Always show the statusline.
 set encoding=utf-8              " Usually necessary to show unicode glyphs.
 set hidden                      " Enable hidden buffers. Basically enables
+
+set splitbelow " split window vertically
                                 " buffer switching without saving first.
 syntax on                       " Enable syntax highlighting.
 set updatetime=1000             " Update time of many VIM things. Seems a
@@ -91,6 +93,10 @@ let mapleader = "\<Space>"
 nnoremap <Leader>w :w<CR>
 nnoremap <Leader>o :CtrlP<CR>
 nnoremap <Leader>h :noh<CR>
+
+"For visual mode copy paste between vim instances
+vmap <leader>y :w! /tmp/vitmp<CR>                                                                  
+nmap <leader>p :r! cat /tmp/vitmp<CR>
 
 "Move between tabs with ctrl + l/h
 map  <C-l> :tabn<CR>
