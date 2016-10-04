@@ -56,6 +56,6 @@ function parse_git_dirty {
 	fi
 }
 
-export PS1="[\u@\h \w] \`parse_git_branch\` "
+export PS1="[\u@\h \w]\`parse_git_branch\` "
 
 alias msfconsole="systemctl start postgresql && msfconsole --quiet -x \"db_connect ${USER}@msf\""
