@@ -16,7 +16,7 @@ exec xset r rate 250 43
 #exec feh, set up desktop wallpaper
 exec --no-startup-id feh --bg-scale /home/gtespe/Pictures/fantasy-city-art.jpg
 
-#exec guake
+#exec yakuake
 exec --no-startup-id guake
 
 #load Workspace 1 layout
@@ -34,9 +34,9 @@ exec --no-startup-id guake
 
 #setup volume controls
 
-bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% && pkill -RTMIN+1 i3blocks
-bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% && pkill -RTMIN+1 i3blocks
-bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle && pkill -RTMIN+1 i3blocks
+bindcode 193 exec --no-startup-id pactl set-sink-volume 0 +5% && pkill -RTMIN+1 i3blocks
+bindcode 192 exec --no-startup-id pactl set-sink-volume 0 -5% && pkill -RTMIN+1 i3blocks
+bindcode 191 exec --no-startup-id pactl set-sink-mute 0 toggle && pkill -RTMIN+1 i3blocks
 
 
 
@@ -80,7 +80,7 @@ bindsym $mod+n exec light -U 7
 bindsym $mod+q kill
 
 # start Rofi (a program launcher)
-bindsym $mod+space exec rofi -show run -font "DejaVu Sans Mono Book 18" -width 30 -lines 5 -padding 20 -hide-scrollbar -bw 4 -terminal urxvt
+bindsym $mod+space exec rofi -show run -font "MonacoB 17" -width 25 -lines 6 -padding 10 -hide-scrollbar -bw 3 -terminal urxvt
 
 
 # There also is the (new) i3-dmenu-desktop which only displays applications
