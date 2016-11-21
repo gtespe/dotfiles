@@ -39,7 +39,6 @@ bindcode 192 exec --no-startup-id pactl set-sink-volume 0 -5% && pkill -RTMIN+1 
 bindcode 191 exec --no-startup-id pactl set-sink-mute 0 toggle && pkill -RTMIN+1 i3blocks
 
 
-
 # i3 config file (v4)
 #
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
